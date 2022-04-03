@@ -5,9 +5,9 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
 
 #Force www:
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^studiocbaskets.com [NC]
-RewriteRule ^(.*)$ https://studiocbaskets.com/$1 [L,R=301,NC]
+#RewriteEngine on
+#RewriteCond %{HTTP_HOST} ^studiocbaskets.com [NC]
+#RewriteRule ^(.*)$ https://studiocbaskets.com/$1 [L,R=301,NC]
 
 # Set browser headers
 # <IfModule mod_headers.c> 
